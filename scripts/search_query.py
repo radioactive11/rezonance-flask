@@ -34,7 +34,7 @@ def query(param):
             "image_url": image_url,
             "prev": prev_url
         }
-        if song_id < 50000:
+        if song_id < 40000:
             search_results.append(temp_dict)
             ctr += 1
     return search_results
